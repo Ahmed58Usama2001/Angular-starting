@@ -1,0 +1,31 @@
+nav {
+    background-color: #2C3E50;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .container {
+    padding: 30px;
+}
+
+.navlinks a {
+    transition: color 0.2s;
+}
+
+.navlinks a:hover {
+
+    color: #22BC9C;
+}
+
+.activeLink {
+    color: white;
+    background-color: #22BC9C;
+    border-radius: 7px;
+}
+
+.activeLink:hover {
+    color: white !important;
+}

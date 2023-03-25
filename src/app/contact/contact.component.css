@@ -1,0 +1,25 @@
+input {
+    width: 40%;
+    border: none;
+    font-size: large;
+    color: #6C757D;
+}
+
+input:focus {
+    border: none;
+}
+
+button {
+    background-color: #1ABC9C;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #159A80;
+}
